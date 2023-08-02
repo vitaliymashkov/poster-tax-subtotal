@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/joinposter/Poster-POS-Platform-Boilerplate#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "bootstrap": "^3.3.7",
+    "i18next": "^23.4.1",
     "os-browserify": "^0.3.0",
     "poster-ui-kit": "^1.2.0",
     "process": "^0.11.10",
@@ -26,6 +28,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.7.0",
+    "react-i18next": "^13.0.3",
     "receipt": "^1.4.0",
     "stream-browserify": "^3.0.0"
   },
@@ -40,7 +43,6 @@
     "@babel/register": "^7.15.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "8.2.2",
-    "babel-polyfill": "^6.26.0",
     "css-loader": "^0.28.5",
     "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
